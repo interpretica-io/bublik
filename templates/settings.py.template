@@ -61,6 +61,11 @@ SECURE_HTTP = False
 ANALYTICS_ENABLED = '${ANALYTICS_ENABLED}'.lower() in ('1', 'true', 'yes')
 ANALYTICS_DB_PATH = '${ANALYTICS_DB_PATH}'
 
+# Site name configuration
+# Displayed in the browser tab title and sidebar navbar instead of "Bublik"
+# Leave empty to use the default name "Bublik"
+SITE_NAME = '${SITE_NAME}' or None
+
 ALLOWED_HOSTS = ['*']
 
 # For debug panel. Note, that you might need

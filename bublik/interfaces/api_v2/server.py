@@ -45,5 +45,6 @@ class ServerViewSet(ViewSet):
         return Response(
             {
                 'analytics_enabled': settings.ANALYTICS_ENABLED,
+                'site_name': settings.SITE_NAME,
             },
         )

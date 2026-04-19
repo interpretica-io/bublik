@@ -44,6 +44,8 @@ export TEMPLATES_DIR="${BUBLIK_SRC}/templates"
 export ENV_DIR="${BUBLIK_SRC}/.env"
 export SCRIPTS_DIR="${BUBLIK_SRC}/scripts"
 
+export SITE_NAME="Bublik"
+
 # Database
 export DB_NAME="bublik"
 export DB_USER="bublik"

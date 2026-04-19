@@ -61,6 +61,10 @@ DB_PORT="${DB_PORT}"
 ANALYTICS_ENABLED="${ANALYTICS_ENABLED}"
 ANALYTICS_DB_PATH="${ANALYTICS_DB_PATH}"
 
+# Site name displayed in the browser tab title and sidebar navbar.
+# Leave empty to use the default name "Bublik".
+SITE_NAME="${SITE_NAME}"
+
 CELERY_APP="bublik.interfaces"
 CELERY_BROKER_URL="amqp://localhost"
 CELERY_RESULT_BACKEND="rpc://"
